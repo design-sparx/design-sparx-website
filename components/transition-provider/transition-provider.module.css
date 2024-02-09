@@ -1,0 +1,42 @@
+.root {
+    height: 100%;
+    width: 100%;
+}
+
+.blackScreen {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--mantine-color-black);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 40;
+}
+
+.whiteScreen {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--mantine-color-black);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: 40;
+    bottom: 0;
+}
+
+.pageName {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: var(--mantine-color-white);
+    cursor: default;
+    background-color: var(--mantine-color-black);
+    z-index: 50;
+    width: 100vw;
+    height: fit-content;
+    font-size: calc(var(--mantine-font-size-xl) * 4);
+    text-align: center;
+    text-transform: capitalize;
+}

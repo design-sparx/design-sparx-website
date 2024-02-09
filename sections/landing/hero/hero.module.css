@@ -1,0 +1,22 @@
+.root {
+    min-height: rem(700px);
+    z-index: 1;
+    display: flex;
+    align-items: end;
+
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(#444cf7 4px, transparent 4px), linear-gradient(to right, #444cf7 4px, #e5e5f7 4px);
+    background-size: 80px 80px;
+}
+
+.inner {
+    min-height: rem(700px);
+    height: 100%;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, .8) 100%);
+    display: flex;
+    align-items: center;
+    /*padding: calc(var(--mantine-spacing-xl) * 5) calc(var(--mantine-spacing-xl) * 1);*/
+}
